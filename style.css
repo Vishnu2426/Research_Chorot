@@ -1,0 +1,49 @@
+html{
+    scroll-behavior: smooth;
+
+}
+.navbar-brand img {
+    height: 50px;
+  }
+  
+  .banner img {
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .card img {
+    height: 250px;
+    object-fit: cover;
+  }
+  .nav-link:hover{
+    text-shadow: 0px 0px 10px red;
+  }
+  footer a {
+    text-decoration: none;
+  }
+  #get img{
+    margin-top: 50px;
+    width: 50px;
+    height: 50px;
+  }
+  @media (max-width: 768px) {
+    .banner img {
+      max-height: 250px;
+    }
+    #bannertext h1{
+      font-size: 12px;
+      /* margin-top: 0px; */
+    }
+    #bannertext h2{
+      font-size: 12px;
+    }
+    #bannertext h3{
+      font-size: 12px;
+    }
+    #bannertext button{
+      font-size: 10px;
+      padding: 5px;
+      margin-top: 0px;
+    }
+  }
+  
