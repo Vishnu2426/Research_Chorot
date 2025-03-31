@@ -1,149 +1,244 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RESEARCH COHORT</title>
     <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-  crossorigin="anonymous"
-/>
+      rel="icon"
+      type="image/png"
+      href="./logo.jpg"
+      style="border-radius: 50px"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Afacad"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- <marquee>ALERT ! LIMITED SEAT ONLY !! GRAB THE SEATS</marquee> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navmenu">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./logo.jpg" alt="LOGO" id="logo"
+        /></a>
+        <h3 class="d-inline-block ms-2">RESEARCH COHORT</h3>
+        <button
+          class="navbar-toggler d-sm-none d-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#when">WHEN</a></li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faculty">FACULTY</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Curriculam">CURRICULAM</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#get">WHAT DO YOU GET</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#reserve">REGISTRATION FEE</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container-fluid p-0">
+      <div class="position-relative">
+        <div class="slider">
+          <img src="./banner-1.jpg" class="img-fluid w-100" alt="banner" />
+        </div>
+        <div
+          class="position-absolute top-50 start-50 translate-middle text-center text-white"
+          id="bannertext"
+        >
+          <h1>Research Methodology & Thesis Writing</h1>
+          <h2>Free Session on Referencing</h2>
+          <h3>
+            Make yourself future-ready with all the data-analysis skills needed
+            tomorrow
+          </h3>
+          <button class="btn btn-primary mt-3">Reserve my seat</button>
+        </div>
+      </div>
+    </div>
+    <div class="container text-center my-4" id="when">
+      <div class="row">
+        <div class="col-md-6 p-3 bg-light">
+          <h4>When do we meet?</h4>
+          <p><strong>Mar 08-09, 2025</strong></p>
+        </div>
+        <div class="col-md-6 p-3 bg-warning">
+          <h4>Registration Fee</h4>
+          <p><strong>₹500</strong></p>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5" id="faculty">
+      <h1 class="text-center">Faculty</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./faculty1.webp"
+              class="card-img-top"
+              alt="faculty image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Faculty Name</h5>
+              <p class="card-text">Expert in research and data analysis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./faculty1.webp"
+              class="card-img-top"
+              alt="faculty image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Faculty Name</h5>
+              <p class="card-text">PhD in Research Methodology.</p>
+              <ul>
+                <li>First point</li>
+                <li>Second Point</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="./faculty1.webp"
+              class="card-img-top"
+              alt="faculty image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Faculty Name</h5>
+              <p class="card-text">20+ years of teaching experience.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5" id="Curriculam">
+      <h1 class="text-center">Curriculum</h1>
+      <table class="table table-striped">
+        <thead class="table-dark">
+          <tr>
+            <th>Session</th>
+            <th>Date & Time</th>
+            <th>Topics</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Session 1</td>
+            <td>Mar 8 - 10:30 AM to 12:20 PM</td>
+            <td>Area Selection, Literature Review</td>
+          </tr>
+          <tr>
+            <td>Session 2</td>
+            <td>Mar 8 - 1:30 PM to 3:00 PM</td>
+            <td>Research Methodology, Data Collection</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container text-center my-5" id="get">
+      <h1>What do you get?</h1>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="./certificate.png" class="img-fluid" alt="Certificate" />
+          <p>Workshop Completion Certificate</p>
+        </div>
+        <div class="col-md-4">
+          <img src="./recorded.png" class="img-fluid" alt="Recorded Session" />
+          <p>Recorded Session Access</p>
+        </div>
+        <div class="col-md-4">
+          <img src="./practice.png" class="img-fluid" alt="Practice" />
+          <p>Hands-on Practice</p>
+        </div>
+      </div>
+    </div>
+    <footer class="bg-dark text-white text-center p-4 mt-5" id="footer">
+      <div id="form">
+        <form action="https://formspree.io/f/maneyrln" method="POST">
+          <label>Name</label>
+          <input
+            type="text"
+            name="username"
+            placeholder="Enter Your Name"
+            required
+          />
 
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-          <a class="navbar-brand" href="#"><img src="./logo.jpg" alt="LOGO" id="logo"></a>
-          <h3 class="d-inline-block ms-2">RESEARCH COHORT</h3>
-          <button class="navbar-toggler d-sm-none d-none" type="button" data-bs-toggle="collapse"  data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item"><a class="nav-link" href="#when">When</a></li>
-              <li class="nav-item"><a class="nav-link" href="#faculty">Faculty</a></li>
-              <li class="nav-item"><a class="nav-link" href="#Curriculam">Curriculum</a></li>
-              <li class="nav-item"><a class="nav-link" href="#get">What Do You Get</a></li>
-              <li class="nav-item"><a class="nav-link" href="#reserve">Registration Fee</a></li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      <div class="container-fluid p-0">
-        <div class="position-relative">
-          <img src="./banner-1.jpg" class="img-fluid w-100" alt="banner">
-          <div class="position-absolute top-50 start-50 translate-middle text-center text-white" id="bannertext">
-            <h1>Research Methodology & Thesis Writing</h1>
-            <h2>Free Session on Referencing</h2>
-            <h3>Make yourself future-ready with all the data-analysis skills needed tomorrow</h3>
-            <button class="btn btn-primary mt-3">Reserve my seat</button>
-          </div>
-        </div>
-      </div>
-      <div class="container text-center my-4" id="when">
-        <div class="row">
-          <div class="col-md-6 p-3 bg-light">
-            <h4>When do we meet?</h4>
-            <p><strong>Mar 08-09, 2025</strong></p>
-          </div>
-          <div class="col-md-6 p-3 bg-warning">
-            <h4>Registration Fee</h4>
-            <p><strong>₹500</strong></p>
-          </div>
-        </div>
-      </div>
-      <div class="container my-5" id="faculty">
-        <h1 class="text-center">Faculty</h1>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./faculty1.webp" class="card-img-top" alt="faculty image">
-              <div class="card-body">
-                <h5 class="card-title">Faculty Name</h5>
-                <p class="card-text">Expert in research and data analysis.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./faculty1.webp" class="card-img-top" alt="faculty image">
-              <div class="card-body">
-                <h5 class="card-title">Faculty Name</h5>
-                <p class="card-text">PhD in Research Methodology.</p>
-                <ul>
-                  <li>First point</li>
-                  <li>Second Point</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img src="./faculty1.webp" class="card-img-top" alt="faculty image">
-              <div class="card-body">
-                <h5 class="card-title">Faculty Name</h5>
-                <p class="card-text">20+ years of teaching experience.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="container my-5" id="Curriculam">
-        <h1 class="text-center">Curriculum</h1>
-        <table class="table table-striped">
-          <thead class="table-dark">
-            <tr>
-              <th>Session</th>
-              <th>Date & Time</th>
-              <th>Topics</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Session 1</td>
-              <td>Mar 8 - 10:30 AM to 12:20 PM</td>
-              <td>Area Selection, Literature Review</td>
-            </tr>
-            <tr>
-              <td>Session 2</td>
-              <td>Mar 8 - 1:30 PM to 3:00 PM</td>
-              <td>Research Methodology, Data Collection</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="container text-center my-5" id="get">
-        <h1>What do you get?</h1>
-        <div class="row">
-          <div class="col-md-4">
-            <img src="./certificate.png" class="img-fluid" alt="Certificate">
-            <p>Workshop Completion Certificate</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./recorded.png" class="img-fluid" alt="Recorded Session">
-            <p>Recorded Session Access</p>
-          </div>
-          <div class="col-md-4">
-            <img src="./practice.png" class="img-fluid" alt="Practice">
-            <p>Hands-on Practice</p>
-          </div>
-        </div>
-      </div>
-      <footer class="bg-dark text-white text-center p-4 mt-5">
-        <div class="container">
-          <p>&copy; 2025 Research Cohort. All Rights Reserved.</p>
-          <a href="#" class="text-white mx-2">About Us</a>
-          <a href="#" class="text-white mx-2">Contact</a>
-          <a href="#" class="text-white mx-2">Privacy Policy</a>
-        </div>
-      </footer>
+          <label>Phone Number</label>
+          <input
+            type="number"
+            name="phonenumber"
+            placeholder="Enter Your Number"
+            required
+          />
+
+          <label>Mail</label>
+          <input
+            type="email"
+            name="mail"
+            placeholder="Enter Your Mail"
+            required
+          />
+
+          <label>Message</label>
+          <textarea
+            name="message"
+            placeholder="Anything Else to Say or Ask?"
+            required
+          ></textarea>
+
+          <button type="submit">Send</button>
+        </form>
       
-      
-      
-      
-    
-</body>
+      <div id="footernav">
+        <img src="./logo.jpg" alt="logo" style="height: 100px; width: 100px" />
+        <p>Our MOTO</p>
+        <p>Projects</p>
+        <p>Open Source</p>
+        <p>Blog</p>
+      </div>
+      <div id="footercontact">
+        <h3>Contact</h3>
+        <p>+91 23445 34343</p>
+        <p>email@youremail.com</p>
+        <p>
+          Address:
+            12/23 ,Lorem <br>ipsum dolor sit amet <br>consectetur 
+        </p>
+      </div>
+    </div>
+      <!-- <img src="./1440.png" alt="footerimage" id="footerimage"> -->
+      <div class="container" id="footertext">
+        <p>&copy; 2025 Research Cohort. All Rights Reserved.</p>
+        <a href="#" class="text-white mx-2">About Us</a>
+        <a href="#" class="text-white mx-2">Contact</a>
+        <a href="#" class="text-white mx-2">Privacy Policy</a>
+      </div>
+    </footer>
+  </body>
 </html>
