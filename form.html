@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+    form label{
+        padding: 10px 0px;
+    }
+    from,input{
+        width: 300px;
+        padding: 5px;
+    }
+    from,textarea{
+        width: 320px;
+        height: 20vh;
+        margin: 20px 0px;
+    }
+    form button{
+        width: fit-content;
+        padding: 5px 10px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+
+    }
+</style>
+<body>
+    <form
+  action="https://formspree.io/f/maneyrln"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    
+</body>
+</html>
